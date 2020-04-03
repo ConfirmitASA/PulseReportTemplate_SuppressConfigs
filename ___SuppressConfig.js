@@ -15,5 +15,4 @@ class SuppressConfig {
     // minGap: min difference between neighbour units
     // unitSufficientBase: min number of the responses when a unit is always shown irrespective of <minGap> requirement
     static var HierarchySuppress = { minGap: 0, unitSufficientBase: 20};
-
 }
