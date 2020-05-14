@@ -4,11 +4,11 @@ class SuppressConfig {
     // DATA SUPPRESSION (more info: SuppressUtil)
     //================================================================================
 
-    static var ReportBaseSuppressValue = 3;  // Min number of responses (response = question specified below in Survey Config -> Response: {qId: 'status', codes: ['complete']})
+    static var ReportBaseSuppressValue = 0;  // Min number of responses (response = question specified below in Survey Config -> Response: {qId: 'status', codes: ['complete']})
 
-    static var TableSuppressValue = 5;       // Min number of answers in the Aggregated Table
+    static var TableSuppressValue = 0;       // Min number of answers in the Aggregated Table
     static var VerbatimSuppressValue = 1;     // Min number of answers in the Verbatim Table
-    static var CommentSuppressValue = 3;      // Min number of answers in the Hitlist
+    static var CommentSuppressValue = 0;      // Min number of answers in the Hitlist
     static var CategoricalSuppressValue = 1; // Min number of answers for cards on the Categorical page
     static var BenchamrkSuppressValue = 3; // Min number of answers for benchmark value to be shown in Results table
 
