@@ -22,6 +22,6 @@ class SuppressConfig {
     // 2) selfUnitBase > unitSufficientBase -> show data, otherwise check further
   	// 3) parentBase - selfUnitBase > minGap -> show data, otherwise check further
   	// 4) parentBase - allSiblingsBase > minGap -> show data, otherwise check further
-    static var HierarchySuppress = { minGap: 100, unitSufficientBase: 5};
+    static var HierarchySuppress = { minGap: 100, unitSufficientBase: 3};
 
 }
